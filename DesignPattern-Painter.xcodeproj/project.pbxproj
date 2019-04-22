@@ -1,0 +1,503 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2D23B88F226DD95A007BF5CE /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D23B88E226DD95A007BF5CE /* AppDelegate.m */; };
+		2D23B892226DD95A007BF5CE /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D23B891226DD95A007BF5CE /* ViewController.m */; };
+		2D23B895226DD95A007BF5CE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2D23B893226DD95A007BF5CE /* Main.storyboard */; };
+		2D23B897226DD95B007BF5CE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2D23B896226DD95B007BF5CE /* Assets.xcassets */; };
+		2D23B89A226DD95B007BF5CE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2D23B898226DD95B007BF5CE /* LaunchScreen.storyboard */; };
+		2D23B89D226DD95B007BF5CE /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D23B89C226DD95B007BF5CE /* main.m */; };
+		2D23B8A7226DD95C007BF5CE /* DesignPattern_PainterTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D23B8A6226DD95C007BF5CE /* DesignPattern_PainterTests.m */; };
+		2D23B8B4226DDA66007BF5CE /* Vertex.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D23B8B3226DDA66007BF5CE /* Vertex.m */; };
+		2D23B8B9226DDDBB007BF5CE /* Dot.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D23B8B8226DDDBB007BF5CE /* Dot.m */; };
+		2D245544226DDF4D006A2873 /* Stroke.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D245543226DDF4D006A2873 /* Stroke.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		2D23B8A3226DD95C007BF5CE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2D23B882226DD95A007BF5CE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2D23B889226DD95A007BF5CE;
+			remoteInfo = "DesignPattern-Painter";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		2D23B88A226DD95A007BF5CE /* DesignPattern-Painter.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "DesignPattern-Painter.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2D23B88D226DD95A007BF5CE /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		2D23B88E226DD95A007BF5CE /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		2D23B890226DD95A007BF5CE /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		2D23B891226DD95A007BF5CE /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		2D23B894226DD95A007BF5CE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		2D23B896226DD95B007BF5CE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		2D23B899226DD95B007BF5CE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		2D23B89B226DD95B007BF5CE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2D23B89C226DD95B007BF5CE /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		2D23B8A2226DD95C007BF5CE /* DesignPattern-PainterTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "DesignPattern-PainterTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2D23B8A6226DD95C007BF5CE /* DesignPattern_PainterTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DesignPattern_PainterTests.m; sourceTree = "<group>"; };
+		2D23B8A8226DD95C007BF5CE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2D23B8B1226DD96D007BF5CE /* Mark.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Mark.h; sourceTree = "<group>"; };
+		2D23B8B2226DDA66007BF5CE /* Vertex.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Vertex.h; sourceTree = "<group>"; };
+		2D23B8B3226DDA66007BF5CE /* Vertex.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Vertex.m; sourceTree = "<group>"; };
+		2D23B8B7226DDDBB007BF5CE /* Dot.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Dot.h; sourceTree = "<group>"; };
+		2D23B8B8226DDDBB007BF5CE /* Dot.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Dot.m; sourceTree = "<group>"; };
+		2D245542226DDF4D006A2873 /* Stroke.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Stroke.h; sourceTree = "<group>"; };
+		2D245543226DDF4D006A2873 /* Stroke.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Stroke.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2D23B887226DD95A007BF5CE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2D23B89F226DD95C007BF5CE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2D23B881226DD95A007BF5CE = {
+			isa = PBXGroup;
+			children = (
+				2D23B88C226DD95A007BF5CE /* DesignPattern-Painter */,
+				2D23B8A5226DD95C007BF5CE /* DesignPattern-PainterTests */,
+				2D23B88B226DD95A007BF5CE /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		2D23B88B226DD95A007BF5CE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2D23B88A226DD95A007BF5CE /* DesignPattern-Painter.app */,
+				2D23B8A2226DD95C007BF5CE /* DesignPattern-PainterTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2D23B88C226DD95A007BF5CE /* DesignPattern-Painter */ = {
+			isa = PBXGroup;
+			children = (
+				2D23B8B6226DDA7C007BF5CE /* Surpporting Files */,
+				2D23B8B5226DDA6E007BF5CE /* Model */,
+				2D23B890226DD95A007BF5CE /* ViewController.h */,
+				2D23B891226DD95A007BF5CE /* ViewController.m */,
+				2D23B893226DD95A007BF5CE /* Main.storyboard */,
+				2D23B89B226DD95B007BF5CE /* Info.plist */,
+			);
+			path = "DesignPattern-Painter";
+			sourceTree = "<group>";
+		};
+		2D23B8A5226DD95C007BF5CE /* DesignPattern-PainterTests */ = {
+			isa = PBXGroup;
+			children = (
+				2D23B8A6226DD95C007BF5CE /* DesignPattern_PainterTests.m */,
+				2D23B8A8226DD95C007BF5CE /* Info.plist */,
+			);
+			path = "DesignPattern-PainterTests";
+			sourceTree = "<group>";
+		};
+		2D23B8B5226DDA6E007BF5CE /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				2D23B8B1226DD96D007BF5CE /* Mark.h */,
+				2D23B8B2226DDA66007BF5CE /* Vertex.h */,
+				2D23B8B3226DDA66007BF5CE /* Vertex.m */,
+				2D23B8B7226DDDBB007BF5CE /* Dot.h */,
+				2D23B8B8226DDDBB007BF5CE /* Dot.m */,
+				2D245542226DDF4D006A2873 /* Stroke.h */,
+				2D245543226DDF4D006A2873 /* Stroke.m */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		2D23B8B6226DDA7C007BF5CE /* Surpporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				2D23B88D226DD95A007BF5CE /* AppDelegate.h */,
+				2D23B88E226DD95A007BF5CE /* AppDelegate.m */,
+				2D23B896226DD95B007BF5CE /* Assets.xcassets */,
+				2D23B898226DD95B007BF5CE /* LaunchScreen.storyboard */,
+				2D23B89C226DD95B007BF5CE /* main.m */,
+			);
+			path = "Surpporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2D23B889226DD95A007BF5CE /* DesignPattern-Painter */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2D23B8AB226DD95C007BF5CE /* Build configuration list for PBXNativeTarget "DesignPattern-Painter" */;
+			buildPhases = (
+				2D23B886226DD95A007BF5CE /* Sources */,
+				2D23B887226DD95A007BF5CE /* Frameworks */,
+				2D23B888226DD95A007BF5CE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "DesignPattern-Painter";
+			productName = "DesignPattern-Painter";
+			productReference = 2D23B88A226DD95A007BF5CE /* DesignPattern-Painter.app */;
+			productType = "com.apple.product-type.application";
+		};
+		2D23B8A1226DD95C007BF5CE /* DesignPattern-PainterTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2D23B8AE226DD95C007BF5CE /* Build configuration list for PBXNativeTarget "DesignPattern-PainterTests" */;
+			buildPhases = (
+				2D23B89E226DD95C007BF5CE /* Sources */,
+				2D23B89F226DD95C007BF5CE /* Frameworks */,
+				2D23B8A0226DD95C007BF5CE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2D23B8A4226DD95C007BF5CE /* PBXTargetDependency */,
+			);
+			name = "DesignPattern-PainterTests";
+			productName = "DesignPattern-PainterTests";
+			productReference = 2D23B8A2226DD95C007BF5CE /* DesignPattern-PainterTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2D23B882226DD95A007BF5CE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1020;
+				ORGANIZATIONNAME = NHNEnt;
+				TargetAttributes = {
+					2D23B889226DD95A007BF5CE = {
+						CreatedOnToolsVersion = 10.2;
+					};
+					2D23B8A1226DD95C007BF5CE = {
+						CreatedOnToolsVersion = 10.2;
+						TestTargetID = 2D23B889226DD95A007BF5CE;
+					};
+				};
+			};
+			buildConfigurationList = 2D23B885226DD95A007BF5CE /* Build configuration list for PBXProject "DesignPattern-Painter" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 2D23B881226DD95A007BF5CE;
+			productRefGroup = 2D23B88B226DD95A007BF5CE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2D23B889226DD95A007BF5CE /* DesignPattern-Painter */,
+				2D23B8A1226DD95C007BF5CE /* DesignPattern-PainterTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2D23B888226DD95A007BF5CE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2D23B89A226DD95B007BF5CE /* LaunchScreen.storyboard in Resources */,
+				2D23B897226DD95B007BF5CE /* Assets.xcassets in Resources */,
+				2D23B895226DD95A007BF5CE /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2D23B8A0226DD95C007BF5CE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2D23B886226DD95A007BF5CE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2D23B892226DD95A007BF5CE /* ViewController.m in Sources */,
+				2D23B89D226DD95B007BF5CE /* main.m in Sources */,
+				2D23B8B4226DDA66007BF5CE /* Vertex.m in Sources */,
+				2D23B8B9226DDDBB007BF5CE /* Dot.m in Sources */,
+				2D23B88F226DD95A007BF5CE /* AppDelegate.m in Sources */,
+				2D245544226DDF4D006A2873 /* Stroke.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2D23B89E226DD95C007BF5CE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2D23B8A7226DD95C007BF5CE /* DesignPattern_PainterTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		2D23B8A4226DD95C007BF5CE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2D23B889226DD95A007BF5CE /* DesignPattern-Painter */;
+			targetProxy = 2D23B8A3226DD95C007BF5CE /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		2D23B893226DD95A007BF5CE /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2D23B894226DD95A007BF5CE /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		2D23B898226DD95B007BF5CE /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2D23B899226DD95B007BF5CE /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		2D23B8A9226DD95C007BF5CE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		2D23B8AA226DD95C007BF5CE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		2D23B8AC226DD95C007BF5CE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 89VMSQSXMM;
+				INFOPLIST_FILE = "DesignPattern-Painter/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.toast.DesignPattern-Painter";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		2D23B8AD226DD95C007BF5CE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 89VMSQSXMM;
+				INFOPLIST_FILE = "DesignPattern-Painter/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.toast.DesignPattern-Painter";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		2D23B8AF226DD95C007BF5CE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 89VMSQSXMM;
+				INFOPLIST_FILE = "DesignPattern-PainterTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.toast.DesignPattern-PainterTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DesignPattern-Painter.app/DesignPattern-Painter";
+			};
+			name = Debug;
+		};
+		2D23B8B0226DD95C007BF5CE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 89VMSQSXMM;
+				INFOPLIST_FILE = "DesignPattern-PainterTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.toast.DesignPattern-PainterTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DesignPattern-Painter.app/DesignPattern-Painter";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2D23B885226DD95A007BF5CE /* Build configuration list for PBXProject "DesignPattern-Painter" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2D23B8A9226DD95C007BF5CE /* Debug */,
+				2D23B8AA226DD95C007BF5CE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2D23B8AB226DD95C007BF5CE /* Build configuration list for PBXNativeTarget "DesignPattern-Painter" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2D23B8AC226DD95C007BF5CE /* Debug */,
+				2D23B8AD226DD95C007BF5CE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2D23B8AE226DD95C007BF5CE /* Build configuration list for PBXNativeTarget "DesignPattern-PainterTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2D23B8AF226DD95C007BF5CE /* Debug */,
+				2D23B8B0226DD95C007BF5CE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 2D23B882226DD95A007BF5CE /* Project object */;
+}
